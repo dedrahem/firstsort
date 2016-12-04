@@ -25,17 +25,14 @@ The remaining word is the answer.
 - [ ] named the file string.txt
 - [ ] noticed, in pages, given data was in rows, each row ending in a line feed.
 - [ ] Read data from the file using,
-- 
-        contents_file = File.open('string.txt','r')
-        stringdata = contents_file.read()
-        contents_file.close()
+- contents_file = File.open('string.txt','r')
+- stringdata = contents_file.read()
+- contents_file.close()
 - [ ] This highlights the line feed at end of row, \n's at the end of each row will now appear in the data string.
 - [ ] There are two ways to fix this, the first is
--
-        lfremoved.delete("\n")
+- lfremoved.delete("\n")
 - [ ] This uses the gsub method, which is global sub and NOT gosub.
--
-        lfremoved = stringdata.gsub("\n",'')
+- lfremoved = stringdata.gsub("\n",'')
 
 #### Sorting - notes:
 
