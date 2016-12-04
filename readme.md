@@ -3,8 +3,11 @@ Put the comma separated data in a file named string.txt
 
 This is as close to the actual solution that i will get.
 The answer is obtained via the character sort with quantity.
-Solved, not pretty.  Moving on.
-report.html was intended to be a dump to an html view.  Save that for a rainy day.
+Solved, not pretty. Moving on.
+report.html not used.
+
+Updated to rename the original mark down file to readme.md
+
 
 ### Problem Definition
 ##### Given the scope of characters, sort the characters in the following string:
@@ -29,10 +32,11 @@ The remaining word is the answer.
         contents_file.close()
 
 - [ ] This highlights the line feed at end of row, \n's at the end of each row will now appear in the data string.
+
 - [ ] There are two ways to fix this, the first is
 -
         lfremoved.delete("\n")
-- [ ] But i used the gsub method, which is global sub and NOT gosub.
+- [ ] This uses the gsub method, which is global sub and NOT gosub.
 -
         lfremoved = stringdata.gsub("\n",'')
 
@@ -109,4 +113,3 @@ yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 
 76 z's
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-# firstsort
